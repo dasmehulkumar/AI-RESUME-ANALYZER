@@ -3,3 +3,4 @@ pymupdf
 sentence-transformers
 torch
 spacy
+flask-cors

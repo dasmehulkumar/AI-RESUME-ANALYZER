@@ -26,7 +26,7 @@ Built using modern AI models like Sentence Transformers and BERT, this tool simu
   <li>✅ Matched Skills Detection</li>
   <li>❌ Missing Skills Identification</li>
   <li>🛠 Resume Improvement Suggestions</li>
-  <li>🎨 Modern UI with Tailwind CSS</li>
+  <li>🎨 Modern UI with React</li>
   <li>⚡ Fast Backend using Flask</li>
 </ul>
 
@@ -50,7 +50,7 @@ Upload Resume → Extract Text → Compare with Job Description
 </tr>
 <tr>
   <td>Frontend</td>
-  <td>HTML, Tailwind CSS</td>
+  <td>React, Vite, CSS</td>
 </tr>
 <tr>
   <td>Backend</td>
@@ -81,10 +81,20 @@ Upload Resume → Extract Text → Compare with Job Description
 <h2>📁 Project Structure</h2>
 
 <pre>
-ai_resume_analyzer/
+AI-RESUME-ANALYZER/
 │
 ├── app.py
 ├── requirements.txt
+├── utils.py
+│
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   └── main.jsx
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
 │
 ├── templates/
 │   ├── index.html
@@ -98,14 +108,21 @@ ai_resume_analyzer/
 
 <h2>▶️ Run Locally</h2>
 
+<h3>Backend (Flask)</h3>
 <pre>
-git clone https://github.com/your-username/ai-resume-analyzer.git
-cd ai-resume-analyzer
+cd AI-RESUME-ANALYZER
 pip install -r requirements.txt
 python app.py
 </pre>
 
-<p>Open in browser: <b>http://127.0.0.1:5000</b></p>
+<h3>Frontend (Vite + React)</h3>
+<pre>
+cd frontend
+npm install
+npm run dev
+</pre>
+
+<p>Open in browser: <b>http://localhost:5173</b> (Frontend) | <b>http://127.0.0.1:5000</b> (Backend API)</p>
 
 <hr>
 
