@@ -160,9 +160,4 @@ npm run dev
 
 <hr>
 
-<h2>📜 License</h2>
-<p>This project is open-source under the MIT License.</p>
-
-<hr>
-
 <h2 align="center">⭐ If you like this project, give it a star!</h2>
